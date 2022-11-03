@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <form action="../tugas/t3/tugas table/table.html" name="Pengaduan warga" action="" method="POST" >
+        <fieldset>
+            <legend> <Form>Pengaduan Masyarakat</legend>
+    <label for="lblnama"> Nama Lengkap : <input type="text" maxlength="25" 
+                       placeholder="isi nama lengkap" size="30"> <br></label> 
+    Password : <input type="password" name="Txtpass" size="38"
+                       placeholder="masukan password anda" value=""><br>
+    <label for="nt"> Nomor Telepon :</label> 
+     <input type="tel" name="not" placeholder="xxxx-xxxx-xxxxx" size="30"><br>       
+     
+     <!----Radio ----->
+     <label for="jnsk">Jenis Kelamin</label>
+     <input type="radio" name="jk" value="Pria" checked> pria
+     <input type="radio" name="jk" value="Wanita"> Wanita<br>
+
+     <label for="hb">Hobi :</label>
+     <input type="checkbox" name="hb1" value="Membaca"> <s>Membaca</s>
+     <input type="checkbox" name="hb1" value="Belajar"> <s>Belajar</s>
+     <input type="checkbox" name="hb1" value="Tidur"> Tidur
+     <input type="checkbox" name="hb1" value="Bernafas"> Bernafas <br>
+    
+     <!--Email saudara thn-->
+     <label for="em">Email : </label>
+     <input type="email" name="em" placeholder="AlamatEmail@Domain" size="30"><br>
+
+     <label for="js">Jumlah Saudara : </label>
+     <input type="number" name="js" size="30" min="0" max="15"><br>
+
+     <label for="thn">Pilih Minggu Dan Tahan : </label>
+     <input type="week" name="thn" size="30"><br>
+
+     <label for="bln">Pilih Bulan Dan Tahun</label>
+     <input type="month" name="bln" size="30"><br>
+
+     <label for="wkt">Waktu</label>
+     <input type="time" name="wkt" size="30"><br>
+
+     <label for="tgl">Tanggal Lahir</label>
+     <input type="date" name="wkt" size="30"><br>
+
+     <label for="dtlc">Pilih Tanggal Dan Waktu</label>
+     <input type="datetime-local" name="dtlc" size="30"><br>
+
+     <label for="range">range</label>
+     <input type="range" name="rg" min="0"  max="100" size="30"><br>
+
+     <label for="url">Alamat Website : </label>
+     <input type="url" name="url" size="30"><br>
+
+     <label for="wrn"> Pilih Warna : </label>
+     <input type="color" name="wrn" size="50"> <br>
+
+     <label for="gmb">Gambar : </label>
+     <input type="image" src="bwabwa.jpg" alt="gambar bwabwa"  width="250px" height="300px" align="top" ><br>
+
+     <label for="file">File</label>
+     <input type="file" name="file" size="30"><br>
+
+     <label for="srv">Search</label>
+     <input type="search" name="srv" size="30"><br>
+
+     <!-- macam macam tombol-->
+     <label for="hid">Komponen Form Hidden</label>
+     <input type="hidden" name="hid" size="30"><br>
+
+     <input type="button" name="btn" value="jenis tombol button" size="30" style="color:orange ; background: rgb(74, 17, 128); border: black;"><br>
+
+     <input type="submit" name="btn kirim" value="tekan" height="30px" width="150px"><br>
+
+     <input type="reset" name="clear" value="mengosongkan form"><br>
+
+     <!-- Data list-->
+     <label for="agm"> Agama : </label>
+     
+<input list="Agama">
+<datalist id="Agama">
+<option value="Islam">
+<option value="Hindu">
+<option value="Budha">
+<option value="Kristen">
+<option value="Katolik">
+</datalist> <br>
+
+<label for="Makanan">Pilih Makanan Favorit
+    Anda :</label>
+    <select id="Makanan" name="Makanan">
+    <option
+    value="Pempek">Pempek</option>
+    <option value="Bakso">Bakso</option>
+    <option value="Model">Model</option>
+    <option value="Mie Celor">Mie Celor
+    </option>
+    <option
+    value="Burgo">Burgo</option>
+    </select><br>
+
+    <!--text area-->
+    <label for="tar">Alamat : </label>
+    <textarea name="tar" cols="40" rows="5"></textarea><br>
+
+
+
+
+
+
+    </fielset>
+</form>
+</body>
+</html>
