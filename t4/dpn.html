@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form awal</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="5" bgcolor="metalic" align="center" width="80%" rules="">
+        <form action="../t4/ssdh.html"  method="POST">
+<colgroup></colgroup>
+<thead color="blue">
+    <tr bgcolor="pink" >
+        <th colspan="2" style="color:rgb(0, 140, 255)" align="center"><h1>Formulir Pendaftaran</h1></th>
+       </tr>
+</thead><tbody>
+    <tr>
+        <td>Nama Lengkap</td>
+        <td ><input type="text" maxlength="25" placeholder="isi nama lengkap" size="40"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password" name="Txtpass" size="40"
+            placeholder="masukan password anda" value=""></td> 
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="em" placeholder="AlamatEmail@Domain" size="40"></td>
+    </tr>
+    <tr>
+        <td>Tanggal Lahir</td>
+        <td><input type="date" name="wkt" size="40"></td>
+    </tr>
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td><input type="radio" name="jk" value="Pria" checked> Pria
+        <input type="radio" name="jk" value="Wanita"> Wanita</td>
+        </tr>
+    <tr>
+        <td>Hobi</td>
+        <td><input type="checkbox" name="hb1" value="Membaca"> <s>Membaca</s>
+            <input type="checkbox" name="hb1" value="Belajar"> <s>Belajar</s>
+            <input type="checkbox" name="hb1" value="Tidur"> Tidur
+            <input type="checkbox" name="hb1" value="Bernafas"> Bernafas
+            <input type="checkbox" name="hb1" value="Makan"> Makan</td>
+    </tr>
+    <tr>
+        <td>Alamat</td>
+        <td> <textarea name="tar" cols="40" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td>Agama</td>
+        <td><input list="Agama" placeholder="Pilih Salah Satu !">
+            <datalist id="Agama">
+            <option value="Islam">
+            <option value="Hindu">
+            <option value="Budha">
+            <option value="Kristen">
+            <option value="Katolik">
+            </datalist></td>
+    </tr>
+    <tr>
+        <td>Foto</td>
+        <td><input type="file" name="file" size="40"></td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr bgcolor="pink" >
+        <th colspan="2"><input type="submit" name="btn kirim" value="Daftar">
+        <input type="reset" name="clear" value="Kosongkan Form"></th>
+       </tr>
+</tfoot>
+    </form></table>
+    
+</body>
+</html>
